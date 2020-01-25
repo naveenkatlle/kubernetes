@@ -1,0 +1,16 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: php-deployment
+spec:
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        env: dev
+    spec:
+      containers:
+      - name: php-container
+        image: nkatle/php-app
+        ports:
+        - containerPort: 80

@@ -1,0 +1,26 @@
+apiVersion: v1
+clusters:
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURERENDQWZTZ0F3SUJBZ0lSQUoycERmbFk0TFZqVERjcTA5Q2dJQzR3RFFZSktvWklodmNOQVFFTEJRQXcKTHpFdE1Dc0dBMVVFQXhNa04yUmpZMlpoT0dZdFltUmxOQzAwTVRCa0xUbGlOR1F0TlRrNU9UZGtNVGhtWTJKbQpNQjRYRFRJd01ERXlOREExTlRjMU9Gb1hEVEkxTURFeU1qQTJOVGMxT0Zvd0x6RXRNQ3NHQTFVRUF4TWtOMlJqClkyWmhPR1l0WW1SbE5DMDBNVEJrTFRsaU5HUXROVGs1T1Rka01UaG1ZMkptTUlJQklqQU5CZ2txaGtpRzl3MEIKQVFFRkFBT0NBUThBTUlJQkNnS0NBUUVBZzRIdEp0RnZmbUozSHc0Y3d6Zk1XNXRhbzBlOGV4R0hMRldXWnhZRAowVjBqRUp1WVBrSml5TU5qTmRBck1sdHkyYmpsMVB4NVViZFNwR0NjamxsNU9TRGVLYU5lOXM1dUJFQUxZaDFnClJuWmZ2SE5PVk1mWlF1RzlENndDeGFBYmJBUy91ejdxNnk3anpGQU1yRWZhWWlQekxYNm9JcWdsd3AvK3lzeGYKekw3Q3J0ZDl0bFErcWppdkZlL0w5cGV3bGtQa01ZYUM1d1NXdnJvSHYyc0UzbHJhVEkvcTlaWXY2YWdzSUFsTAoxbml0QWllUFYwcDZYcUJGcDRJS3BpSHJMQ05kTEhNQWJzM1p4QjY3cHFHU0RRUlRhME9EVUtuRm5LSWtMNktmCisxSG1ncENIN0pxUVFVazVUSUZLL2E2STIxL2FUR1Q0VzVELzdaTFBnQ1hUUndJREFRQUJveU13SVRBT0JnTlYKSFE4QkFmOEVCQU1DQWdRd0R3WURWUjBUQVFIL0JBVXdBd0VCL3pBTkJna3Foa2lHOXcwQkFRc0ZBQU9DQVFFQQphTmM2U0U5ellaY3diZDhCR0RIOU9hL1FZU0JpVHZPd1ZiYWVZeFdlWGtRWjVDcWU0ZnNxSEpjSERPaEpoUG1qCldKaXB2ZW5ZUlYzc0pxMEpEUGpmWEdydHQwVHgxbUZxVVIrQ3RFWnZvVDNPeldXYWoraVJwSlQ0R2xwalE5RXYKc1h1cGFnaENGSWJFZ2MzdUlnTW9maFZWcGpFUERXTXQ3KzBOc3pPajVZYk9DREgwS0dubEdzcXVPbXlSM1hRYQpiaE9DRXA2a2pBVWlZQlJtNEh4WGI0OG5MYk1zd04yQ3REYUkxS1hSYjNOQ0hlWTQvbDJTVFRzUjRBSXBUelc1Cm43b1VYN2IzZzBIdEV4Y3diQ1BLMHJlQk1rTDloVmZMdmNkL0xFT2pWTmNCSWgrakFrZVNNUkp2MllrV3cvcUwKL0RkYnFPVFlxSHJnbnh3VE9rRHpIUT09Ci0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K
+    server: https://35.225.190.150
+  name: gke_steel-acumen-259408_us-central1-a_opentextcluster
+contexts:
+- context:
+    cluster: gke_steel-acumen-259408_us-central1-a_opentextcluster
+    user: gke_steel-acumen-259408_us-central1-a_opentextcluster
+  name: gke_steel-acumen-259408_us-central1-a_opentextcluster
+current-context: gke_steel-acumen-259408_us-central1-a_opentextcluster
+kind: Config
+preferences: {}
+users:
+- name: gke_steel-acumen-259408_us-central1-a_opentextcluster
+  user:
+    auth-provider:
+      config:
+        access-token: ya29.Ima7B0TzrhAVaxW74ipc4WtNGfCQKzyUox4389qsP3x-LFDkm1siZT9OIp3TlRDOicidVF0eVnEU4gdl3XJBuqMzBV7nSWR_3PRyNKk7THJcw8Ou3oFDZeqvwifwIP8oGyBTpmBp1-I
+        cmd-args: config config-helper --format=json
+        cmd-path: /usr/lib/google-cloud-sdk/bin/gcloud
+        expiry: "2020-01-25T12:34:03Z"
+        expiry-key: '{.credential.token_expiry}'
+        token-key: '{.credential.access_token}'
+      name: gcp

@@ -1,0 +1,7 @@
+HTTP/2.0 200 OK
+Content-Length: 207
+Audit-Id: e4409852-76df-4f0d-b838-ecb45bbeb9a3
+Content-Type: application/json
+Date: Sat, 25 Jan 2020 11:34:04 GMT
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"authentication.k8s.io/v1beta1","resources":[{"name":"tokenreviews","singularName":"","namespaced":false,"kind":"TokenReview","verbs":["create"]}]}

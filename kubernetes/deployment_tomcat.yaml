@@ -1,0 +1,16 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: tomcat-deployment
+spec:
+  replicas: 5
+  template:
+    metadata:
+      labels:
+        env: prod
+    spec:
+      containers:
+      - name: my-tomcat
+        image: tomcat
+        ports:
+        - containerPort: 8080
